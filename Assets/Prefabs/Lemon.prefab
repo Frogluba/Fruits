@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 5578658230028952407}
   m_Layer: 0
   m_Name: Lemon
-  m_TagString: Untagged
+  m_TagString: Lemon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29,7 +29,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0.00011127745, y: -0.0038816612, z: -0.028655572, w: 0.9995818}
   m_LocalPosition: {x: 1.1979113, y: -3.8353748, z: 0}
-  m_LocalScale: {x: 0.9, y: 0.9, z: 1}
+  m_LocalScale: {x: 1.3, y: 1.3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
