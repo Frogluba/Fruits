@@ -3,7 +3,14 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Cherry
+  - Strawberry
+  - Coconut
+  - Peach
+  - Orange
+  - Lemon
+  - Pineapple
   layers:
   - Default
   - TransparentFX
