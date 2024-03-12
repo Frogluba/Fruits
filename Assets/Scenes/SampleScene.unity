@@ -862,10 +862,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fruits:
-  - {fileID: 7820737006122182083, guid: 0dd66bd03eb0bb040a0d9f9359c0c2fc, type: 3}
   - {fileID: 5610507945834324160, guid: 9ed535e5da44e374d9c4460e3a0d1d01, type: 3}
-  - {fileID: 6701392694986461891, guid: 1e550ad9cc848114c821ecd1ff408bf2, type: 3}
-  - {fileID: 4421325835526299819, guid: 9d39ed7983a9d34478673ffd55bd4e82, type: 3}
   text1: {fileID: 1960323132}
   text2: {fileID: 164763843}
 --- !u!1 &1406022416

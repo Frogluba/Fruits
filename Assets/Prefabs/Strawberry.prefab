@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 201689928848726866}
   - component: {fileID: 4653094646197445180}
   - component: {fileID: 1309329917923914307}
+  - component: {fileID: 1264806985832032584}
   m_Layer: 0
   m_Name: Strawberry
   m_TagString: Strawberry
@@ -148,3 +149,17 @@ CircleCollider2D:
   m_Offset: {x: -0.0648821, y: -0.04866141}
   serializedVersion: 2
   m_Radius: 0.48377925
+--- !u!114 &1264806985832032584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5610507945834324160}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f6f6cca3c2d9a54baec52d458b5dd2f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colided: {fileID: 5610507945834324160}
+  apeared: {fileID: 7820737006122182083, guid: 0dd66bd03eb0bb040a0d9f9359c0c2fc, type: 3}
