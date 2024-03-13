@@ -1,3 +1,3 @@
 # Fruit merge
 
-## I tryed:(
+## I tried:(
