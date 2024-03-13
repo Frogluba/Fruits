@@ -12,7 +12,8 @@ GameObject:
   - component: {fileID: 7773261952784963597}
   - component: {fileID: 4813733087479016025}
   - component: {fileID: 5212352338792941858}
-  m_Layer: 0
+  - component: {fileID: 1635248403304055896}
+  m_Layer: 6
   m_Name: Cherry
   m_TagString: Cherry
   m_Icon: {fileID: 0}
@@ -148,3 +149,17 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1635248403304055896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7820737006122182083}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f6f6cca3c2d9a54baec52d458b5dd2f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colided: {fileID: 7820737006122182083}
+  apeared: {fileID: 4421325835526299819, guid: 9d39ed7983a9d34478673ffd55bd4e82, type: 3}

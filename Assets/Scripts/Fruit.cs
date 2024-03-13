@@ -1,5 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Reflection;
+using UnityEditorInternal;
 using UnityEngine;
 
 public class Fruit : MonoBehaviour
@@ -17,7 +19,7 @@ public class Fruit : MonoBehaviour
     {
         if (!hasCollided && collision.gameObject.CompareTag(this.gameObject.tag))
         {
-            
+
 
             // Destroy both colliding objects
             Destroy(this.gameObject);
@@ -27,6 +29,4 @@ public class Fruit : MonoBehaviour
             Instantiate(apeared, collision.GetContact(0).point, Quaternion.identity);
         }
     }
-
-
 }
