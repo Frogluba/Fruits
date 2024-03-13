@@ -529,7 +529,7 @@ GameObject:
   - component: {fileID: 595494361}
   m_Layer: 0
   m_Name: Ground
-  m_TagString: Untagged
+  m_TagString: Cherry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -814,8 +814,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -12.07, y: 3.22}
-  m_SizeDelta: {x: 20, y: 5}
+  m_AnchoredPosition: {x: -11.9393, y: 2.403}
+  m_SizeDelta: {x: 19.7386, y: 6.634}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1187118769
 GameObject:
@@ -862,9 +862,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fruits:
-  - {fileID: 5610507945834324160, guid: 9ed535e5da44e374d9c4460e3a0d1d01, type: 3}
-  text1: {fileID: 1960323132}
-  text2: {fileID: 164763843}
+  - {fileID: 466261153992399318, guid: 7c857ed6dbe8dde4694815cd21dfcc6c, type: 3}
+  - {fileID: 6701392694986461891, guid: 1e550ad9cc848114c821ecd1ff408bf2, type: 3}
+  - {fileID: 7820737006122182083, guid: 0dd66bd03eb0bb040a0d9f9359c0c2fc, type: 3}
+  text1: {fileID: 164763844}
+  text2: {fileID: 1960323133}
 --- !u!1 &1406022416
 GameObject:
   m_ObjectHideFlags: 0
