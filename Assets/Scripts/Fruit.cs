@@ -4,14 +4,15 @@ using UnityEngine;
 
 public class Fruit : MonoBehaviour
 {
-    public GameObject colidded;
-    public GameObject apeared;
-
-    private void Update()
+    private void OnCollisionEnter2D(Collision2D collision)
     {
+        if (!collision.gameObject.CompareTag("Fruit")) return;
         
+        var middlePos = (transform.position + collision.transform.position)/ 2;
+
+        Destroy(gameObject);
+        Destroy(collision.gameObject);
+
+        print("fruit");
     }
-
-    
-
 }
